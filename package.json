@@ -1,13 +1,21 @@
 {
+  "name": "y",
+  "version": "1.0.0",
   "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
-    "build": "parcel build src/index.html"
+    "dev": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.9.3",
-    "parcel": "^2.9.3",
-    "sass": "^1.64.1",
-    "sharp": "^0.31.3"
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "sass": "^1.64.1"
   }
 }
